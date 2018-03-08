@@ -1,0 +1,21 @@
+{
+	"html": {
+		"in": "./src/index.html",
+		"out": "./public/"
+	},
+	"js": { "in": "./src/scripts/index.tsx",
+		"out": "./public/assets/js/",
+		"vendors": [
+			"react",
+			"react-dom"
+		]
+	},
+	"css": { "in": "./src/styles/main.sass",
+		"out": "./public/assets/css/"
+	},
+	"server": {
+		"port": 3000,
+		"proxyPort": 4000
+	},
+	"environment": "development"
+}
