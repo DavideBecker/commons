@@ -1,0 +1,45 @@
+{
+  "name": "project-title",
+  "version": "0.1.0",
+  "description": "project-description",
+  "main": "./app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode=development --progress --display-error-details",
+    "build": "webpack --mode=production --progress",
+    "build-verbose": "webpack --mode=production --progress --display-error-details",
+    "start": "pm2 flush && pm2 start config/pm2-production.yml && pm2 logs",
+    "start-develop": "pm2 flush && pm2 start config/pm2-development.yml && pm2 logs",
+    "flush-logs": "pm2 flush",
+    "flush-start": "npm run flush-logs && npm run start",
+    "flush-start-develop": "npm run flush-logs && npm run start-develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavideBecker/"
+  },
+  "author": "Davide Becker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavideBecker/"
+  },
+  "homepage": "https://github.com/DavideBecker/",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "styled-components": "^3.4.6",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}

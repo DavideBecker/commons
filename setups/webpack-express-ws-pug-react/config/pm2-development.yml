@@ -1,0 +1,20 @@
+apps:
+
+  - name     : 'project-title'
+
+    # context
+    script   : server.js
+    cwd: ./app/
+
+    # variables
+    args: ''
+    node_args: ['--inspect=7000']
+    #interpreter_args: '--harmony --harmony_rest_parameters'
+    env    :
+        NODE_ENV: development
+
+    # process config
+    watch  : true
+    ignore_watch : ['node_modules']
+    exec_mode: fork
+    #max_memory_restart: 150M
