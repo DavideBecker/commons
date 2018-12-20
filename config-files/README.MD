@@ -18,8 +18,6 @@ Relatively strict ESLint config
 [development/.zshrc](./development/.zshrc)    
 Config for [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-[development/.zshrc](./development/.zshrc)    
-
 ### Production
 
 [production/.bash-aliases](./production/.bash-aliases)    

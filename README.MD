@@ -25,7 +25,6 @@ Development setups I've used in the past. Whenever I feel like it's flexible eno
 	* [development/.editorconfig](./config-files/development/.editorconfig)
 	* [development/.eslintrc](./config-files/development/.eslintrc)
 	* [development/.zshrc](./config-files/development/.zshrc)
-	* [development/.zshrc](./config-files/development/.zshrc)
 	* [production/.bash-aliases](./config-files/production/.bash-aliases)
 
 * [development-setups](./development-setups) (Contains readme)
