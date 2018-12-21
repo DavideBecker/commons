@@ -1,13 +1,13 @@
 {
-  "name": "express-role-based-authentication",
-  "version": "1.0.0",
+  "name": "buzzkiller",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Davide Becker <email@example.com> (http://example.com)",
+  "license": "MIT",
   "dependencies": {
     "pbkdf2": "^3.0.17",
     "polka": "^0.5.1",
