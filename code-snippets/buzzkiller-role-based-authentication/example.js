@@ -19,7 +19,7 @@ switch (process.argv[2]) {
     break;
 
   case 'getUserRoles':
-    // getPermissionsForUser(user_id)
+    // getRolesOfUserById(user_id)
     Auth.getRolesOfUserById(process.argv[3])
     break;
 

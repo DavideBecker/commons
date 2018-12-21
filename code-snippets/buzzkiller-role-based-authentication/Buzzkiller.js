@@ -21,6 +21,11 @@ class Buzzkiller {
     this.helpers = helpers
   }
 
+  // TODO: Currently vulnerable to SQL injection if tableName is user-controlled
+  _removeByID(tableName, id) {
+    this.db.run(this.helpers._str(queries.dynamic.deleteTable, tableName), id)
+  }
+
   /**
    * 
    * @param {string} password The password to hash
@@ -28,7 +33,7 @@ class Buzzkiller {
    * 
    * @returns {SaltedPassword} The hashed and salted password with the salt seperately
    */
-  hashPassword(password, savedSalt = false) {
+  _hashPassword(password, savedSalt = false) {
     let salt = savedSalt || crypto.randomBytes(128).toString('base64');
     let hash = pbkdf2.pbkdf2Sync(password, salt, 10000, 64, 'sha512');
 
@@ -46,8 +51,8 @@ class Buzzkiller {
    * 
    * @returns {boolean} Whether or not the password matches the salted hash
    */
-  isPasswordCorrect(savedHash, savedSalt, passwordAttempt) {
-    return savedHash === this.hashPassword(passwordAttempt, savedSalt).hash
+  _isPasswordCorrect(savedHash, savedSalt, passwordAttempt) {
+    return savedHash === this._hashPassword(passwordAttempt, savedSalt).hash
   }
 
   /**
@@ -61,7 +66,7 @@ class Buzzkiller {
     const self = this
 
     this.db.get(queries.getUserByName, username, function(err, row) {
-      if (self.isPasswordCorrect(row.hash, row.salt, password)) {
+      if (self._isPasswordCorrect(row.hash, row.salt, password)) {
         console.log('Password is correct')
         return row.id
       } else {
@@ -77,7 +82,7 @@ class Buzzkiller {
    * @param {string} password The password of the user, will be hashed and salted
    */
   addUserToDatabase(username, password) {
-    const hashedPassword = this.hashPassword(password)
+    const hashedPassword = this._hashPassword(password)
 
     this.db.run(queries.addUser, [username, hashedPassword.hash, hashedPassword.salt], function(err) {
       if (!err) {
