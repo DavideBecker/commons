@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavideBecker/commons.git"
+  },
   "author": "Davide Becker <email@example.com> (http://example.com)",
   "license": "MIT",
   "dependencies": {
