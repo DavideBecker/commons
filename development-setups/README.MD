@@ -7,7 +7,7 @@ This folder contains some setups for build tools (Like Gulp / Webpack) and start
 [arduino-node-socket](./arduino-node-socket)    
 Codebase for fetching the output of arduinos serialport and sending it to a web frontend via socket.io
 
-[WIP] [gulp-modular](./gulp-modular)    
+[Abandoned] [gulp-modular](./gulp-modular)    
 Attempt to heavily modularize gulp tasks to tailor it to the project requirements without writing it from scratch
 
 [gulp-react-typescript](./gulp-react-typescript)    

@@ -1,4 +1,4 @@
-# commons
+# Commons
 
 Streamlining my workflows step-by-step!
 
@@ -18,7 +18,7 @@ Development setups I've used in the past. Whenever I feel like it's flexible eno
 ## Directory tree
 * [code-snippets](./code-snippets) (Contains readme)
 	* [basic-electron](./code-snippets/basic-electron)
-	* [WIP] [express-role-based-authentication](./code-snippets/express-role-based-authentication)
+	* [WIP] [buzzkiller-role-based-authentication](./code-snippets/buzzkiller-role-based-authentication)
 
 * [config-files](./config-files) (Contains readme)
 	* [development/.aliases](./config-files/development/.aliases)
