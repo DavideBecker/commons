@@ -1,0 +1,6 @@
+# dist/js/**
+<<<<<<< HEAD
+scrapper/data/**
+=======
+node_modules
+>>>>>>> Added Art Scraper for

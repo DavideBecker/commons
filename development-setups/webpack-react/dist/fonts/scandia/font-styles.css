@@ -1,0 +1,271 @@
+/*
+- - - > |  @font-face  | < - - - 
+*/
+/* Scandia Web Light */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebLight/ScandiaWebLight.eot');
+  src: url('ScandiaWebLight/ScandiaWebLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebLight/ScandiaWebLight.woff2') format('woff2'),
+    url('ScandiaWebLight/ScandiaWebLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Scandia Web Light Italic */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebLightItalic/ScandiaWebLightItalic.eot');
+  src: url('ScandiaWebLightItalic/ScandiaWebLightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebLightItalic/ScandiaWebLightItalic.woff2') format('woff2'),
+    url('ScandiaWebLightItalic/ScandiaWebLightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Scandia Web Regular */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebRegular/ScandiaWebRegular.eot');
+  src: url('ScandiaWebRegular/ScandiaWebRegular.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebRegular/ScandiaWebRegular.woff2') format('woff2'),
+    url('ScandiaWebRegular/ScandiaWebRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Scandia Web Regular Italic */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebRegularItalic/ScandiaWebRegularItalic.eot');
+  src: url('ScandiaWebRegularItalic/ScandiaWebRegularItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebRegularItalic/ScandiaWebRegularItalic.woff2') format('woff2'),
+    url('ScandiaWebRegularItalic/ScandiaWebRegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Scandia Web Medium */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebMedium/ScandiaWebMedium.eot');
+  src: url('ScandiaWebMedium/ScandiaWebMedium.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebMedium/ScandiaWebMedium.woff2') format('woff2'),
+    url('ScandiaWebMedium/ScandiaWebMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Scandia Web Medium Italic */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebMediumItalic/ScandiaWebMediumItalic.eot');
+  src: url('ScandiaWebMediumItalic/ScandiaWebMediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebMediumItalic/ScandiaWebMediumItalic.woff2') format('woff2'),
+    url('ScandiaWebMediumItalic/ScandiaWebMediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Scandia Web Bold */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebBold/ScandiaWebBold.eot');
+  src: url('ScandiaWebBold/ScandiaWebBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebBold/ScandiaWebBold.woff2') format('woff2'),
+    url('ScandiaWebBold/ScandiaWebBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Scandia Web Bold Italic */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWeb';
+  src: url('ScandiaWebBoldItalic/ScandiaWebBoldItalic.eot');
+  src: url('ScandiaWebBoldItalic/ScandiaWebBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebBoldItalic/ScandiaWebBoldItalic.woff2') format('woff2'),
+    url('ScandiaWebBoldItalic/ScandiaWebBoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Scandia Web Stencil */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaWebStencil';
+  src: url('ScandiaWebStencil/ScandiaWebStencil.eot');
+  src: url('ScandiaWebStencil/ScandiaWebStencil.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaWebStencil/ScandiaWebStencil.woff2') format('woff2'),
+    url('ScandiaWebStencil/ScandiaWebStencil.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Scandia Line Web Light */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaLineWeb';
+  src: url('ScandiaLineWebLight/ScandiaLineWebLight.eot');
+  src: url('ScandiaLineWebLight/ScandiaLineWebLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaLineWebLight/ScandiaLineWebLight.woff2') format('woff2'),
+    url('ScandiaLineWebLight/ScandiaLineWebLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Scandia Line Web Regular */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaLineWeb';
+  src: url('ScandiaLineWebRegular/ScandiaLineWebRegular.eot');
+  src: url('ScandiaLineWebRegular/ScandiaLineWebRegular.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaLineWebRegular/ScandiaLineWebRegular.woff2') format('woff2'),
+    url('ScandiaLineWebRegular/ScandiaLineWebRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Scandia Line Web Medium */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaLineWeb';
+  src: url('ScandiaLineWebMedium/ScandiaLineWebMedium.eot');
+  src: url('ScandiaLineWebMedium/ScandiaLineWebMedium.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaLineWebMedium/ScandiaLineWebMedium.woff2') format('woff2'),
+    url('ScandiaLineWebMedium/ScandiaLineWebMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Scandia Line Web Bold */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaLineWeb';
+  src: url('ScandiaLineWebBold/ScandiaLineWebBold.eot');
+  src: url('ScandiaLineWebBold/ScandiaLineWebBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaLineWebBold/ScandiaLineWebBold.woff2') format('woff2'),
+    url('ScandiaLineWebBold/ScandiaLineWebBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Scandia Line Web Stencil */
+@font-face {
+  font-display: swap;
+  font-family: 'ScandiaLineWebStencil';
+  src: url('ScandiaLineWebStencil/ScandiaLineWebStencil.eot');
+  src: url('ScandiaLineWebStencil/ScandiaLineWebStencil.eot?#iefix')
+      format('embedded-opentype'),
+    url('ScandiaLineWebStencil/ScandiaLineWebStencil.woff2') format('woff2'),
+    url('ScandiaLineWebStencil/ScandiaLineWebStencil.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+- - - > |  Font Classes  | < - - - 
+*/
+.ScandiaWebLight {
+  font-family: 'ScandiaWeb';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ScandiaWebLightItalic {
+  font-family: 'ScandiaWeb';
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ScandiaWebRegular {
+  font-family: 'ScandiaWeb';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ScandiaWebRegularItalic {
+  font-family: 'ScandiaWeb';
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ScandiaWebMedium {
+  font-family: 'ScandiaWeb';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ScandiaWebMediumItalic {
+  font-family: 'ScandiaWeb';
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ScandiaWebBold {
+  font-family: 'ScandiaWeb';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ScandiaWebBoldItalic {
+  font-family: 'ScandiaWeb';
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ScandiaWebStencil {
+  font-family: 'ScandiaWebStencil';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ScandiaLineWebLight {
+  font-family: 'ScandiaLineWeb';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ScandiaLineWebRegular {
+  font-family: 'ScandiaLineWeb';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ScandiaLineWebMedium {
+  font-family: 'ScandiaLineWeb';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ScandiaLineWebBold {
+  font-family: 'ScandiaLineWeb';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ScandiaLineWebStencil {
+  font-family: 'ScandiaLineWebStencil';
+  font-weight: normal;
+  font-style: normal;
+}
